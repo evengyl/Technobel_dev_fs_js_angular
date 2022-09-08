@@ -1,0 +1,9 @@
+npm install -g @angular/cli
+
+Depuis le CLI d'angular
+ng version -> permet d'obtenir la version complete d'angular
+
+Pour créer un nouveau projet angular
+ng new NomDuProjet --skip-tests ou -S
+il vous pose une question, pour ajouter le routing angular -> y
+il vous demande ensuite votre systeme de stylesheet
