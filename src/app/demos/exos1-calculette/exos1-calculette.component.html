@@ -1,0 +1,28 @@
+<h4>Exos 1 : la calculette (one way, two way, event)</h4>
+<p class="left-align light"></p>
+
+<div class="row">
+    <div class="col m12">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+                <span class="card-title">Calculette</span>
+
+                <input id="nb1" type="number" [(ngModel)]="nb1">
+                <label for="nb1">Nombre 1</label>
+
+                <input id="nb2" type="number" [(ngModel)]="nb2">
+                <label for="nb2">Nombre 2</label>
+
+                <div class="card-action">
+
+                    <button class="btn-floating btn-large waves-effect waves-light red" (click)="add()">+</button>
+                    <button class="btn-floating btn-large waves-effect waves-light red" (click)="rem()">-</button>
+                    <button class="btn-floating btn-large waves-effect waves-light red" (click)="multi()">*</button>
+                    <button class="btn-floating btn-large waves-effect waves-light red" (click)="div()">/</button>
+                </div>
+
+                <span>{{ res }}</span>
+            </div>
+        </div>
+    </div>
+</div>

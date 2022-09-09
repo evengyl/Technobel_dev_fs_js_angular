@@ -15,6 +15,7 @@ import { NavbarComponent } from './shared/compos/navbar/navbar.component';
 import { FooterComponent } from './shared/compos/footer/footer.component';
 import { Four0four3Component } from './demos/four0four3/four0four3.component';
 import { Eventbinding4Component } from './demos/eventbinding4/eventbinding4.component';
+import { Exos1CalculetteComponent } from './demos/exos1-calculette/exos1-calculette.component';
 
 
 
@@ -28,6 +29,7 @@ import { Eventbinding4Component } from './demos/eventbinding4/eventbinding4.comp
     Twowaybinding2Component,
     Four0four3Component,
     Eventbinding4Component,
+    Exos1CalculetteComponent,
   ],
   imports: [
     BrowserModule,
