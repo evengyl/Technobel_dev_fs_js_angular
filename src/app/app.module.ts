@@ -13,6 +13,8 @@ import { Twowaybinding2Component } from './demos/twowaybinding2/twowaybinding2.c
 
 import { NavbarComponent } from './shared/compos/navbar/navbar.component';
 import { FooterComponent } from './shared/compos/footer/footer.component';
+import { Four0four3Component } from './demos/four0four3/four0four3.component';
+import { Eventbinding4Component } from './demos/eventbinding4/eventbinding4.component';
 
 
 
@@ -24,11 +26,13 @@ import { FooterComponent } from './shared/compos/footer/footer.component';
     FooterComponent,
     Binding1Component,
     Twowaybinding2Component,
+    Four0four3Component,
+    Eventbinding4Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

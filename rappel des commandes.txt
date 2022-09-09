@@ -7,8 +7,14 @@ Pour créer un nouveau projet angular
 ng new NomDuProjet --skip-tests ou -S
 il vous pose une question, pour ajouter le routing angular -> y
 il vous demande ensuite votre systeme de stylesheet
+et ok ! 
+pour lancé le projet -> ng serve --port 4200
+pour couper le serveur, ctrl+c dans la console
 
 pour créer un compo,
 ng generate component path+name
 ou
 ng g c path+name
+
+
+pour installer prime-ng -> npm i primeng --save
