@@ -1,18 +1,31 @@
-<nav class="white" role="navigation">
+<nav class="" role="navigation">
   <div class="nav-wrapper container">
-    <a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <a id="logo-container" class="brand-logo">Logo</a>
     <ul class="right hide-on-med-and-down">
       <li><a routerLink="">Home</a></li>
-      <li><a routerLink="demos/binding">Demo 1 : le binding</a></li>
-      <li><a routerLink="demos/twowaybinding">Demo 2 : le two ways binding</a></li>
-      <li><a routerLink="demos/four0four">Demo 3 : el famosso 404</a></li>
-      <li><a routerLink="demos/event">Demo 4 : Les events bindings</a></li>
       <li><a routerLink="exos/calculette">Exos 1 : La calculette</a></li>
+      <li><a style="width:250px;" class="dropdown-trigger" data-target="demosList1">&nbsp;&nbsp;&nbsp;Demos&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
 
-    <ul id="nav-mobile" class="sidenav">
-      
-    </ul>
+    <ul id="nav-mobile" class="sidenav"></ul>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
 </nav>
+
+
+<!-- Dropdown Structure -->
+<ul id="demosList1" class="dropdown-content">
+  <li><a routerLink="demos/binding">Demo 1 : le binding</a></li>
+  <li class="divider"></li>
+  <li><a routerLink="demos/twowaybinding">Demo 2 : le two ways binding</a></li>
+  <li class="divider"></li>
+  <li><a routerLink="demos/four0four">Demo 3 : el famosso 404</a></li>
+  <li class="divider"></li>
+  <li><a routerLink="demos/event">Demo 4 : Les events bindings</a></li>
+  <li class="divider"></li>
+  <li><a routerLink="demos/propertymodel">Demo 5 : Le Model Property</a></li>
+  <li class="divider"></li>
+  <li><a routerLink="demos/pipes">Demo 6 : Le Pipes</a></li>
+  <li class="divider"></li>
+  <li><a routerLink="demos/cpipes">Demo 7 : Les Customs Pipes</a></li>
+</ul>
