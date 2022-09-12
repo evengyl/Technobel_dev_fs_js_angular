@@ -9,7 +9,8 @@ export class Custompipes7Component implements OnInit {
   nb : number = 0
   monPow : number = 0
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
     //mon user veux quelques chose de perso...
