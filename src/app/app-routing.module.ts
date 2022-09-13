@@ -11,6 +11,7 @@ import { Twowaybinding2Component } from './demos/twowaybinding2/twowaybinding2.c
 import { HomeComponent } from './home/home.component';
 import { Exos2CustomspipesComponent } from './exos/exos2-customspipes/exos2-customspipes.component';
 import { Structuralsdirectives8Component } from './demos/structuralsdirectives8/structuralsdirectives8.component';
+import { Exos3CustomCartsComponent } from './exos/exos3-custom-carts/exos3-custom-carts.component';
 
 const routes: Routes = [
   {path : "", component :HomeComponent},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path : "demos/cpipes", component : Custompipes7Component},
   {path : "exos/customspipes", component : Exos2CustomspipesComponent},
   {path : "demos/strdirectives", component : Structuralsdirectives8Component},
+  {path : "exos/customcart", component : Exos3CustomCartsComponent},
 
 
 
