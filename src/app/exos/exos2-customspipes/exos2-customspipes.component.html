@@ -1,0 +1,43 @@
+<h4>Exos 2 : les customs pipes</h4>
+<p class="left-align light">attention que les pipes customs, comme ils peuvent être réutilisé dans d'autres compo, on les places dans le shared !</p>
+
+<div class="row">
+    <div class="col m12">
+        <div class="card blue-grey darken-1 col m12">
+            <div class="card-content white-text col m12">
+                <span class="card-title">Customs Pipes</span>
+
+                <input id="nb1" type="number" [(ngModel)]="nbSecondUser">
+                <label for="nb1">Entrer un nombre de secondes</label>
+
+
+                <div class="col m12">
+                    <ul class="collection col m6">
+                        <li class="collection-item blue-grey darken-3">Nombre entré : {{ nbSecondUser }}</li>
+                        <li class="collection-item blue-grey darken-3">Nombre converti en jj:hh:mm:ss : {{ nbSecondUser | secondToHumanTime }}</li>
+                        <li class="collection-item blue-grey darken-3">Nombre converti en Fahrenheit : {{ nbSecondUser | secondToFahrenheit }}</li>
+                        <li class="collection-item blue-grey darken-3">Nombre renversé : {{ nbSecondUser | secondReverse }}</li>
+                    </ul>
+
+                
+
+                
+                    <div class="col m6" >
+                        <div class="input-field col s12">
+                            <select [(ngModel)]="toCurrency">
+                                <option value="" disbled selected></option>
+                                <option value="USD">USD American</option>
+                                <option value="RUB">RUB Russian</option>
+                                <option value="JPY">JPY Japan</option>
+                            </select>
+
+                            <label>Choississez votre devise pour convertir : </label>
+                        </div>
+                        <p class="blue-grey darken-3">De Euros vers {{ toCurrency }}  : {{ nbSecondUser | secondToThunasse : toCurrency }}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
