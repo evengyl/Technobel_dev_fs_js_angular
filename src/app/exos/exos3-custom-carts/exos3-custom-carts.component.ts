@@ -25,6 +25,7 @@ export class Exos3CustomCartsComponent implements OnInit {
 
   addProduct(idToAdd : number){
 
+    let isIt : boolean = false
     let newProd : ICart = new Cart()
     let prodToAdd : IProduct | undefined = this.listProducts.find(elem => elem.id == idToAdd)
     //ici js, interprete que la predicate (fct), est courte ! donc ça fonction avec elem => elem.quelqueschose compare autrechose
@@ -40,8 +41,6 @@ export class Exos3CustomCartsComponent implements OnInit {
 
       if(this.cart.length >= 1)
       {
-        let isIt : boolean = false
-
         this.cart.forEach((item) => {
 
           if(item.product.id == idToAdd){
@@ -75,7 +74,7 @@ export class Exos3CustomCartsComponent implements OnInit {
         return true
       return false
     })
-    
+
     if(indexToRemove != -1)
       this.cart.splice(indexToRemove,1)
   }
