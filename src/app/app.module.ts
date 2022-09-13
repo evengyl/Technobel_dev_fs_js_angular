@@ -27,6 +27,7 @@ import { Exos2CustomspipesComponent } from './exos/exos2-customspipes/exos2-cust
 import { SecondToFahrenheitPipe } from './shared/pipes/second-to-fahrenheit.pipe';
 import { SecondReversePipe } from './shared/pipes/second-reverse.pipe';
 import { SecondToThunassePipe } from './shared/pipes/second-to-thunasse.pipe';
+import { Structuralsdirectives8Component } from './demos/structuralsdirectives8/structuralsdirectives8.component';
 
 M.AutoInit()
 
@@ -51,6 +52,7 @@ M.AutoInit()
     SecondToFahrenheitPipe,
     SecondReversePipe,
     SecondToThunassePipe,
+    Structuralsdirectives8Component,
     
   ],
   imports: [

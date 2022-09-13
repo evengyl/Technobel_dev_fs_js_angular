@@ -10,6 +10,7 @@ import { Thepipes6Component } from './demos/thepipes6/thepipes6.component';
 import { Twowaybinding2Component } from './demos/twowaybinding2/twowaybinding2.component';
 import { HomeComponent } from './home/home.component';
 import { Exos2CustomspipesComponent } from './exos/exos2-customspipes/exos2-customspipes.component';
+import { Structuralsdirectives8Component } from './demos/structuralsdirectives8/structuralsdirectives8.component';
 
 const routes: Routes = [
   {path : "", component :HomeComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path : "demos/pipes", component : Thepipes6Component},
   {path : "demos/cpipes", component : Custompipes7Component},
   {path : "exos/customspipes", component : Exos2CustomspipesComponent},
+  {path : "demos/strdirectives", component : Structuralsdirectives8Component},
 
 
 
