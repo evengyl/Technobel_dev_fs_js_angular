@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Toast } from 'src/app/shared/toasts/MaterializeToasts';
+
+
+
 
 @Component({
   selector: 'app-exos3-custom-carts',
@@ -75,8 +79,10 @@ export class Exos3CustomCartsComponent implements OnInit {
       return false
     })
 
-    if(indexToRemove != -1)
+    if(indexToRemove != -1){
       this.cart.splice(indexToRemove,1)
+      Toast.deleteProduct()
+    }
   }
 
 }
