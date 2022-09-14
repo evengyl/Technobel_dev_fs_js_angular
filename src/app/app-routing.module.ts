@@ -12,31 +12,46 @@ import { HomeComponent } from './home/home.component';
 import { Exos2CustomspipesComponent } from './exos/exos2-customspipes/exos2-customspipes.component';
 import { Structuralsdirectives8Component } from './demos/structuralsdirectives8/structuralsdirectives8.component';
 import { Exos3CustomCartsComponent } from './exos/exos3-custom-carts/exos3-custom-carts.component';
+import { Attributesdirectives9Component } from './demos/attributesdirectives9/attributesdirectives9.component';
 
 const routes: Routes = [
-  {path : "", component :HomeComponent},
-  {path : "demos/binding", component:Binding1Component},
-  {path : "demos/twowaybinding", component:Twowaybinding2Component},
-  {path : "demos/four0four", component : Four0four3Component},
-  {path : "demos/event", component:Eventbinding4Component},
-  {path : "exos/calculette", component : Exos1CalculetteComponent},
-  {path : "demos/propertymodel", component : Propertymodel5Component},
-  {path : "demos/pipes", component : Thepipes6Component},
-  {path : "demos/cpipes", component : Custompipes7Component},
-  {path : "exos/customspipes", component : Exos2CustomspipesComponent},
-  {path : "demos/strdirectives", component : Structuralsdirectives8Component},
-  {path : "exos/customcart", component : Exos3CustomCartsComponent},
+	{ path: "", component: HomeComponent },
+	{ path: "demos", children: [
+			{ path: "binding", component: Binding1Component },
+			{ path: "twowaybinding", component: Twowaybinding2Component },
+			{ path: "four0four", component: Four0four3Component },
+			{ path: "event", component: Eventbinding4Component },
+			{ path: "propertymodel", component: Propertymodel5Component },
+			{ path: "pipes", component: Thepipes6Component },
+			{ path: "cpipes", component: Custompipes7Component },
+			{ path: "strdirectives", component: Structuralsdirectives8Component },
+			{ path: "attrdirectives", children: [
+					{ path: "native", component: Attributesdirectives9Component },
+					{ path: "custom", component: Attributesdirectives9Component },
+				]
+			}
+		]
+	},
+	{
+		path: "exos", children: [
+			{ path: "calculette", component: Exos1CalculetteComponent },
+			{ path: "customspipes", component: Exos2CustomspipesComponent },
+			{ path: "customcart", component: Exos3CustomCartsComponent },
+		]
+	},
 
 
 
-  
-  
-  {path : "admin", loadChildren : () => import('./admin/admin.module').then(m => m.AdminModule)},
-  {path:"**", component:Four0four3Component}
+
+
+
+
+	{ path: "admin", loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
+	{ path: "**", component: Four0four3Component }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forRoot(routes)],
+	exports: [RouterModule]
 })
 export class AppRoutingModule { }

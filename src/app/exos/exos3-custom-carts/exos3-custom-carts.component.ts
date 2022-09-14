@@ -40,7 +40,8 @@ export class Exos3CustomCartsComponent implements OnInit {
       //   return null
       // })
       
-    if(prodToAdd){
+    if(prodToAdd)
+    {
       newProd.product = {...prodToAdd}
 
       if(this.cart.length >= 1)
@@ -58,6 +59,8 @@ export class Exos3CustomCartsComponent implements OnInit {
       }
       else
         this.cart.push(newProd)
+
+      Toast.addProduct()
     }
 
 
