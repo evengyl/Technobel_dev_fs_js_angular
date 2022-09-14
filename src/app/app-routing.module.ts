@@ -13,6 +13,7 @@ import { Exos2CustomspipesComponent } from './exos/exos2-customspipes/exos2-cust
 import { Structuralsdirectives8Component } from './demos/structuralsdirectives8/structuralsdirectives8.component';
 import { Exos3CustomCartsComponent } from './exos/exos3-custom-carts/exos3-custom-carts.component';
 import { Attributesdirectives9Component } from './demos/attributesdirectives9/attributesdirectives9.component';
+import { Attributesdirectivescustom10Component } from './demos/attributesdirectivescustom10/attributesdirectivescustom10.component';
 
 const routes: Routes = [
 	{ path: "", component: HomeComponent },
@@ -27,7 +28,7 @@ const routes: Routes = [
 			{ path: "strdirectives", component: Structuralsdirectives8Component },
 			{ path: "attrdirectives", children: [
 					{ path: "native", component: Attributesdirectives9Component },
-					{ path: "custom", component: Attributesdirectives9Component },
+					{ path: "custom", component: Attributesdirectivescustom10Component },
 				]
 			}
 		]

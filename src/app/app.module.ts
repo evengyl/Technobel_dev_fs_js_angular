@@ -30,6 +30,9 @@ import { SecondToThunassePipe } from './shared/pipes/second-to-thunasse.pipe';
 import { Structuralsdirectives8Component } from './demos/structuralsdirectives8/structuralsdirectives8.component';
 import { Exos3CustomCartsComponent } from './exos/exos3-custom-carts/exos3-custom-carts.component';
 import { Attributesdirectives9Component } from './demos/attributesdirectives9/attributesdirectives9.component';
+import { Attributesdirectivescustom10Component } from './demos/attributesdirectivescustom10/attributesdirectivescustom10.component';
+import { RenderDirective } from './shared/directives/render.directive';
+import { HightlightDirective } from './shared/directives/hightlight.directive';
 
 M.AutoInit()
 
@@ -57,6 +60,9 @@ M.AutoInit()
     Structuralsdirectives8Component,
     Exos3CustomCartsComponent,
     Attributesdirectives9Component,
+    Attributesdirectivescustom10Component,
+    RenderDirective,
+    HightlightDirective,
     
   ],
   imports: [
