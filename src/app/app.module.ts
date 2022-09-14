@@ -33,6 +33,10 @@ import { Attributesdirectives9Component } from './demos/attributesdirectives9/at
 import { Attributesdirectivescustom10Component } from './demos/attributesdirectivescustom10/attributesdirectivescustom10.component';
 import { RenderDirective } from './shared/directives/render.directive';
 import { HightlightDirective } from './shared/directives/hightlight.directive';
+import { Exos4CustomsDirectivesComponent } from './exos/exos4-customs-directives/exos4-customs-directives.component';
+import { BolderDirective } from './shared/directives/bolder.directive';
+import { ToasterPersoDirective } from './shared/directives/toaster-perso.directive';
+import { BoundedParagraphDirective } from './shared/directives/bounded-paragraph.directive';
 
 M.AutoInit()
 
@@ -63,6 +67,10 @@ M.AutoInit()
     Attributesdirectivescustom10Component,
     RenderDirective,
     HightlightDirective,
+    Exos4CustomsDirectivesComponent,
+    BolderDirective,
+    ToasterPersoDirective,
+    BoundedParagraphDirective,
     
   ],
   imports: [
