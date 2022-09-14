@@ -15,6 +15,7 @@ import { Exos3CustomCartsComponent } from './exos/exos3-custom-carts/exos3-custo
 import { Attributesdirectives9Component } from './demos/attributesdirectives9/attributesdirectives9.component';
 import { Attributesdirectivescustom10Component } from './demos/attributesdirectivescustom10/attributesdirectivescustom10.component';
 import { Exos4CustomsDirectivesComponent } from './exos/exos4-customs-directives/exos4-customs-directives.component';
+import { ParentComponent } from './demos/input-output11/parent/parent.component';
 
 const routes: Routes = [
 	{ path: "", component: HomeComponent },
@@ -31,7 +32,8 @@ const routes: Routes = [
 					{ path: "native", component: Attributesdirectives9Component },
 					{ path: "custom", component: Attributesdirectivescustom10Component },
 				]
-			}
+			},
+			{ path: "inputoutput", component : ParentComponent}
 		]
 	},
 	{

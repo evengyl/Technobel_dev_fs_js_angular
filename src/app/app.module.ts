@@ -37,6 +37,8 @@ import { Exos4CustomsDirectivesComponent } from './exos/exos4-customs-directives
 import { BolderDirective } from './shared/directives/bolder.directive';
 import { ToasterPersoDirective } from './shared/directives/toaster-perso.directive';
 import { BoundedParagraphDirective } from './shared/directives/bounded-paragraph.directive';
+import { ParentComponent } from './demos/input-output11/parent/parent.component';
+import { ChildComponent } from './demos/input-output11/child/child.component';
 
 M.AutoInit()
 
@@ -71,6 +73,8 @@ M.AutoInit()
     BolderDirective,
     ToasterPersoDirective,
     BoundedParagraphDirective,
+    ParentComponent,
+    ChildComponent,
     
   ],
   imports: [
