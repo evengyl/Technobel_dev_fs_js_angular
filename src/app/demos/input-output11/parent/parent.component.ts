@@ -15,4 +15,20 @@ export class ParentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  deleteChildById(id_person : number){
+    //alert("je veux delete l'id nb° : " + id_person)
+    let indexToDelete = this.listPerson.findIndex((person) => person.id == id_person)
+    this.listPerson.splice(indexToDelete, 1)
+  }
+
+  updateChildFirstName(updatePerson : {id : number, firstName : string}){
+    let indexToUpdate = this.listPerson.findIndex((person) => person.id == updatePerson.id)
+    this.listPerson[indexToUpdate].first_name = updatePerson.firstName
+  }
+
+
+  reverseSort(){
+    this.listPerson.reverse()
+  }
+
 }
