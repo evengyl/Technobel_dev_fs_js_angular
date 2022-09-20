@@ -40,6 +40,8 @@ import { BoundedParagraphDirective } from './shared/directives/bounded-paragraph
 import { ParentComponent } from './demos/input-output11/parent/parent.component';
 import { ChildComponent } from './demos/input-output11/child/child.component';
 import { DI12Component } from './demos/di12/di12.component';
+import { CartComponent } from './exos/exos5-input-output/cart/cart.component';
+import { ProductComponent } from './exos/exos5-input-output/product/product.component';
 
 M.AutoInit()
 
@@ -77,6 +79,8 @@ M.AutoInit()
     ParentComponent,
     ChildComponent,
     DI12Component,
+    CartComponent,
+    ProductComponent,
     
   ],
   imports: [
