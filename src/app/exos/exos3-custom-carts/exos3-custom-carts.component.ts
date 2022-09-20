@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FakeLoginService } from 'src/app/shared/services/fake-login.service';
 import { Toast } from 'src/app/shared/toasts/MaterializeToasts';
 
 
@@ -21,9 +22,14 @@ export class Exos3CustomCartsComponent implements OnInit {
   totalTvac : number = 0
   totalHtva : number = 0
 
-  constructor() { }
+  /* part for demos 12 DI services */
+  isConnect : boolean = false
+  /* end of */
+
+  constructor(private fakeLoginService : FakeLoginService) { }
 
   ngOnInit(): void {
+    this.isConnect = this.fakeLoginService.isConnect
   }
 
 

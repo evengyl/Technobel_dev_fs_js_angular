@@ -39,6 +39,7 @@ import { ToasterPersoDirective } from './shared/directives/toaster-perso.directi
 import { BoundedParagraphDirective } from './shared/directives/bounded-paragraph.directive';
 import { ParentComponent } from './demos/input-output11/parent/parent.component';
 import { ChildComponent } from './demos/input-output11/child/child.component';
+import { DI12Component } from './demos/di12/di12.component';
 
 M.AutoInit()
 
@@ -75,6 +76,7 @@ M.AutoInit()
     BoundedParagraphDirective,
     ParentComponent,
     ChildComponent,
+    DI12Component,
     
   ],
   imports: [
