@@ -24,6 +24,7 @@ import { Exos3CustomCartsComponent } from './exos/exos3-custom-carts/exos3-custo
 import { Exos4CustomsDirectivesComponent } from './exos/exos4-customs-directives/exos4-customs-directives.component';
 import { CartComponent } from './exos/exos5-input-output/cart/cart.component';
 import { AsyncAwait14Component } from './demos/async-await14/async-await14.component';
+import { Exos6PromiseComponent } from './exos/exos6-promise/exos6-promise.component';
 
 
 
@@ -58,7 +59,8 @@ const routes: Routes = [
 			{ path: "customspipes", component: Exos2CustomspipesComponent },
 			{ path: "customcart", component: Exos3CustomCartsComponent },
 			{ path: "customsdirectives", component : Exos4CustomsDirectivesComponent},
-			{ path: "inputoutput", component : CartComponent}
+			{ path: "inputoutput", component : CartComponent},
+			{ path: "promise", component : Exos6PromiseComponent},
 		]
 	},
 

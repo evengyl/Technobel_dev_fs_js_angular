@@ -50,6 +50,7 @@ import { ChildComponent } from './demos/input-output11/child/child.component';
 import { DI12Component } from './demos/di12/di12.component';
 import { RefreshPromise13Component } from './demos/refresh-promise13/refresh-promise13.component';
 import { AsyncAwait14Component } from './demos/async-await14/async-await14.component';
+import { Exos6PromiseComponent } from './exos/exos6-promise/exos6-promise.component';
 
 
 
@@ -94,6 +95,7 @@ import { AsyncAwait14Component } from './demos/async-await14/async-await14.compo
     ProductComponent,
     RefreshPromise13Component,
     AsyncAwait14Component,
+    Exos6PromiseComponent,
     
   ],
   imports: [
