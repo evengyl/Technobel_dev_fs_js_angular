@@ -25,6 +25,7 @@ import { Exos4CustomsDirectivesComponent } from './exos/exos4-customs-directives
 import { CartComponent } from './exos/exos5-input-output/cart/cart.component';
 import { AsyncAwait14Component } from './demos/async-await14/async-await14.component';
 import { Exos6PromiseComponent } from './exos/exos6-promise/exos6-promise.component';
+import { HttpClient15Component } from './demos/http-client15/http-client15.component';
 
 
 
@@ -49,6 +50,7 @@ const routes: Routes = [
 			{ path: "diServices", component : DI12Component},
 			{ path: "refreshpromise", component : RefreshPromise13Component},
 			{ path: "asyncawait", component : AsyncAwait14Component},
+			{ path: "httpclient", component : HttpClient15Component},
 
 			
 		]

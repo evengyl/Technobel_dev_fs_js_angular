@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
 
 import * as M from 'materialize-css'
 M.AutoInit()
@@ -51,6 +52,7 @@ import { DI12Component } from './demos/di12/di12.component';
 import { RefreshPromise13Component } from './demos/refresh-promise13/refresh-promise13.component';
 import { AsyncAwait14Component } from './demos/async-await14/async-await14.component';
 import { Exos6PromiseComponent } from './exos/exos6-promise/exos6-promise.component';
+import { HttpClient15Component } from './demos/http-client15/http-client15.component';
 
 
 
@@ -96,12 +98,14 @@ import { Exos6PromiseComponent } from './exos/exos6-promise/exos6-promise.compon
     RefreshPromise13Component,
     AsyncAwait14Component,
     Exos6PromiseComponent,
+    HttpClient15Component,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
