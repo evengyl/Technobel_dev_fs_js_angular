@@ -83,8 +83,8 @@ export class RefreshPromiseDemo13Service {
 
     let promise2 = new Promise<string>((resolve, reject) => {
       setTimeout(() => {
-        //resolve("Resolve promise 2 for Promise.all")
-        reject("Reject promise 2 for Promise.all")
+        resolve("Resolve promise 2 for Promise.all")
+        //reject("Reject promise 2 for Promise.all")
       }, 2500);
     })
 
