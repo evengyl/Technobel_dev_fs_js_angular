@@ -53,6 +53,9 @@ import { RefreshPromise13Component } from './demos/refresh-promise13/refresh-pro
 import { AsyncAwait14Component } from './demos/async-await14/async-await14.component';
 import { Exos6PromiseComponent } from './exos/exos6-promise/exos6-promise.component';
 import { HttpClient15Component } from './demos/http-client15/http-client15.component';
+import { FetchPromiseComponent } from './remediations/22092022/fetch-promise/fetch-promise.component';
+import { LoginremComponent } from './remediations/22092022/loginrem/loginrem.component';
+import { RemediationService } from './remediations/22092022/remediation.service';
 
 
 
@@ -99,6 +102,8 @@ import { HttpClient15Component } from './demos/http-client15/http-client15.compo
     AsyncAwait14Component,
     Exos6PromiseComponent,
     HttpClient15Component,
+    FetchPromiseComponent,
+    LoginremComponent,
     
   ],
   imports: [
@@ -107,7 +112,8 @@ import { HttpClient15Component } from './demos/http-client15/http-client15.compo
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
