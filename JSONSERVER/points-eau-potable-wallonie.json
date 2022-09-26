@@ -1,0 +1,1006 @@
+{
+    "datasets": [
+        {
+            "datasetid": "points-eau-potable",
+            "id": "42d0e8f7545aeeb0709c9b6f603b4dcca5c3e957",
+            "fields": {
+                "geo_point_2d": [
+                    50.6470470352,
+                    5.5729710713
+                ],
+                "street_name": "Rue Pierreuse",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a24f4ff0049",
+                "additional_information": "Coteaux de la Citadelle (Terrasses des Minimes)",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5729710713,
+                        50.6470470352
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "38",
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1169663,
+                "street_code": 1002,
+                "gid": 2,
+                "icar_street_id": 7731245,
+                "photo": {
+                    "id": "235afc06df8029d45b2bcbc36a6cb02e",
+                    "mimetype": "image/jpeg",
+                    "height": 6000,
+                    "width": 4000,
+                    "filename": "ff8080817ce80e39017d9a24f4ff0049_o.JPG",
+                    "thumbnail": true,
+                    "format": "MPO",
+                    "color_summary": [
+                        "rgba(85, 98, 69, 1.00)",
+                        "rgba(83, 98, 60, 1.00)",
+                        "rgba(114, 123, 112, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Citadelle",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a24f4ff0049/ff8080817ce80e39017d9a24f4ff0049_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5729710713,
+                    50.6470470352
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "8972ac2012173f5d5481ef94b13b568a8685dba4",
+            "fields": {
+                "geo_point_2d": [
+                    50.6447469856,
+                    5.5599639679
+                ],
+                "street_name": "Parc Sainte-Agathe",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a1c143b0043",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5599639679,
+                        50.6447469856
+                    ],
+                    "type": "Point"
+                },
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1913637,
+                "street_code": 4067,
+                "gid": 4,
+                "icar_street_id": 7731054,
+                "photo": {
+                    "id": "2587988ee685b9c3d53cbb537d8d6408",
+                    "mimetype": "image/jpeg",
+                    "height": 1034,
+                    "width": 690,
+                    "filename": "ff8080817ce80e39017d9a1c143b0043_o.JPG",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(89, 104, 84, 1.00)",
+                        "rgba(78, 94, 69, 1.00)",
+                        "rgba(95, 111, 104, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Sainte-Agathe",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a1c143b0043/ff8080817ce80e39017d9a1c143b0043_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5599639679,
+                    50.6447469856
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "2f95d25626f6318a43f9635ad702a801a63ebba0",
+            "fields": {
+                "geo_point_2d": [
+                    50.6404910446,
+                    5.5582709642
+                ],
+                "street_name": "Rue Wazon",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a270444004e",
+                "additional_information": "Angle des rues Monulphe et Saint-Laurent (Jardin Wiket)",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5582709642,
+                        50.6404910446
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "128",
+                "schedule": "En service de mi-avril \u00e0 octobre de 9h \u00e0 21h",
+                "icar_address_id": 1153910,
+                "street_code": 2045,
+                "gid": 9,
+                "icar_street_id": 7731197,
+                "photo": {
+                    "id": "4ddc5fa13cfa833ad89a44271866a3f1",
+                    "mimetype": "image/jpeg",
+                    "height": 1425,
+                    "width": 950,
+                    "filename": "ff8080817ce80e39017d9a270444004e_o.jpg",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(129, 127, 126, 1.00)",
+                        "rgba(141, 142, 143, 1.00)",
+                        "rgba(115, 116, 115, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Saint-Laurent",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a270444004e/ff8080817ce80e39017d9a270444004e_o.jpg",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5582709642,
+                    50.6404910446
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "d2c82c73573091cb80433bc4a704cb7987694149",
+            "fields": {
+                "geo_point_2d": [
+                    50.6505059766,
+                    5.5915330537
+                ],
+                "street_name": "Place de la Vieille-Montagne",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a250355004a",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5915330537,
+                        50.6505059766
+                    ],
+                    "type": "Point"
+                },
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1218576,
+                "street_code": 5101,
+                "gid": 6,
+                "icar_street_id": 7730062,
+                "photo": {
+                    "id": "53505dfe2bfd1207de487687ce2ee122",
+                    "mimetype": "image/jpeg",
+                    "height": 6000,
+                    "width": 4000,
+                    "filename": "ff8080817ce80e39017d9a250355004a_o.JPG",
+                    "thumbnail": true,
+                    "format": "MPO",
+                    "color_summary": [
+                        "rgba(69, 76, 82, 1.00)",
+                        "rgba(115, 115, 114, 1.00)",
+                        "rgba(136, 138, 133, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Vieille montagne",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a250355004a/ff8080817ce80e39017d9a250355004a_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5915330537,
+                    50.6505059766
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "8c3430264928e8d5c6c3534e416bfbedea60926f",
+            "fields": {
+                "geo_point_2d": [
+                    50.6421589612,
+                    5.5828149508
+                ],
+                "street_name": "Place de l'Yser",
+                "postal_code": 4020,
+                "picture": "ff8080817ce80e39017db40d8474004f",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5828149508,
+                        50.6421589612
+                    ],
+                    "type": "Point"
+                },
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1215215,
+                "street_code": 6028,
+                "gid": 11,
+                "icar_street_id": 7730920,
+                "photo": {
+                    "id": "49160bdb536bf645904b494fe3717897",
+                    "mimetype": "image/png",
+                    "height": 6000,
+                    "width": 4000,
+                    "filename": "ff8080817ce80e39017db40d8474004f_o.png",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(51, 59, 40, 1.00)",
+                        "rgba(84, 100, 78, 1.00)",
+                        "rgba(97, 109, 99, 1.00)"
+                    ]
+                },
+                "status": "Non disponible",
+                "title": "Borne \u00e0 boire - Place de l'Yser",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-08-08",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017db40d8474004f/ff8080817ce80e39017db40d8474004f_o.png",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5828149508,
+                    50.6421589612
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "ef56a0cd224ec6cbddc93d6216ef02509b0062cf",
+            "fields": {
+                "geo_point_2d": [
+                    50.6421249926,
+                    5.5790739851
+                ],
+                "street_name": "Quai de Gaulle",
+                "postal_code": 4020,
+                "picture": "ff8080817ce80e39017d9a2224060047",
+                "type": "Fontaine Mont\u00e9fiore (Eau potable)",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5790739851,
+                        50.6421249926
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "12",
+                "schedule": "En service de mi-avril \u00e0 octobre de 9h \u00e0 21h",
+                "icar_address_id": 1107199,
+                "street_code": 6020,
+                "gid": 12,
+                "icar_street_id": 7730109,
+                "photo": {
+                    "id": "c13922fc64ce39a9bf845d9e49253ca0",
+                    "mimetype": "image/jpeg",
+                    "height": 3008,
+                    "width": 2000,
+                    "filename": "ff8080817ce80e39017d9a2224060047_o.JPG",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(48, 55, 47, 1.00)",
+                        "rgba(93, 97, 87, 1.00)",
+                        "rgba(100, 95, 79, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Fontaine Montefiore - de Gaulle",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a2224060047/ff8080817ce80e39017d9a2224060047_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5790739851,
+                    50.6421249926
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "cbfef9c283c081d1fa5d0f758aa2fa49c706e480",
+            "fields": {
+                "geo_point_2d": [
+                    50.6547500427,
+                    5.6032560374
+                ],
+                "street_name": "Rue Morinval",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a041d2c003f",
+                "additional_information": "Cours de l'\u00e9cole",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.6032560374,
+                        50.6547500427
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "72",
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1218467,
+                "street_code": 5072,
+                "gid": 13,
+                "icar_street_id": 7731199,
+                "photo": {
+                    "id": "1621026f9d53545dd5f0818f9bc3acc2",
+                    "mimetype": "image/jpeg",
+                    "height": 6000,
+                    "width": 4000,
+                    "filename": "ff8080817ce80e39017d9a041d2c003f_o.JPG",
+                    "thumbnail": true,
+                    "format": "MPO",
+                    "color_summary": [
+                        "rgba(72, 88, 60, 1.00)",
+                        "rgba(123, 137, 94, 1.00)",
+                        "rgba(141, 142, 128, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Morinval",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a041d2c003f/ff8080817ce80e39017d9a041d2c003f_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.6032560374,
+                    50.6547500427
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "3dbc7aacbda379da81b62aa0899feccec68ddea7",
+            "fields": {
+                "geo_point_2d": [
+                    50.6525359734,
+                    5.5891819535
+                ],
+                "street_name": "Place de Vivegnis",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a26e650004c",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5891819535,
+                        50.6525359734
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "26",
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1126480,
+                "street_code": 5007,
+                "gid": 7,
+                "icar_street_id": 7730063,
+                "photo": {
+                    "id": "05b5529113b9b7413575b1d724669efe",
+                    "mimetype": "image/jpeg",
+                    "height": 6000,
+                    "width": 4000,
+                    "filename": "ff8080817ce80e39017d9a26e650004c_o.JPG",
+                    "thumbnail": true,
+                    "format": "MPO",
+                    "color_summary": [
+                        "rgba(44, 59, 33, 1.00)",
+                        "rgba(118, 125, 96, 1.00)",
+                        "rgba(130, 131, 117, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Vivegnis",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a26e650004c/ff8080817ce80e39017d9a26e650004c_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5891819535,
+                    50.6525359734
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "f7d65a1f105869b2584696e1a394b8c103e6c108",
+            "fields": {
+                "geo_point_2d": [
+                    50.6283937729,
+                    5.5463925023
+                ],
+                "street_name": "Boulevard Kleyer",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a042b480040",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5463925023,
+                        50.6283937729
+                    ],
+                    "type": "Point"
+                },
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1222498,
+                "gid": 21,
+                "photo": {
+                    "id": "1233065a8a8e0ae7ba372ec693420698",
+                    "mimetype": "image/jpeg",
+                    "height": 5568,
+                    "width": 3712,
+                    "filename": "ff8080817ce80e39017d9a042b480040_o.JPG",
+                    "thumbnail": true,
+                    "format": "MPO",
+                    "color_summary": [
+                        "rgba(112, 153, 181, 1.00)",
+                        "rgba(112, 119, 101, 1.00)",
+                        "rgba(187, 189, 192, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Cointe (parc canin)",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a042b480040/ff8080817ce80e39017d9a042b480040_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2021-06-16"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5463925023,
+                    50.6283937729
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "ee66417bcbef9bef3ee523c3d6646a9d9024c166",
+            "fields": {
+                "geo_point_2d": [
+                    50.6458261493,
+                    5.5590690966
+                ],
+                "street_name": "Rue Sainte-Marguerite",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a26f681004d",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5590690966,
+                        50.6458261493
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "124",
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1228482,
+                "street_code": 4003,
+                "gid": 22,
+                "icar_street_id": 7731300,
+                "photo": {
+                    "id": "10bb046c40fb35830c384276f742eb5b",
+                    "mimetype": "image/jpeg",
+                    "height": 5568,
+                    "width": 3712,
+                    "filename": "ff8080817ce80e39017d9a26f681004d_o.JPG",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(44, 58, 30, 1.00)",
+                        "rgba(93, 102, 93, 1.00)",
+                        "rgba(155, 153, 147, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Sainte-Marguerite (plaine de jeux)",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-28",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a26f681004d/ff8080817ce80e39017d9a26f681004d_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2021-06-16"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5590690966,
+                    50.6458261493
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "9e9a7693e43a7b07813af1abfca03d7824fb6a59",
+            "fields": {
+                "geo_point_2d": [
+                    50.6482140306,
+                    5.5854339386
+                ],
+                "street_name": "Rue Mathieu-Laensberg",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a24e0690048",
+                "additional_information": "Esplanade Saint-L\u00e9onard",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5854339386,
+                        50.6482140306
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "4",
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1217580,
+                "street_code": 5065,
+                "gid": 3,
+                "icar_street_id": 7731182,
+                "photo": {
+                    "id": "ceb2939d73476922e3dbc948aeeaf11c",
+                    "mimetype": "image/jpeg",
+                    "height": 6000,
+                    "width": 4000,
+                    "filename": "ff8080817ce80e39017d9a24e0690048_o.JPG",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(198, 200, 194, 1.00)",
+                        "rgba(149, 147, 136, 1.00)",
+                        "rgba(109, 111, 106, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Saint-L\u00e9onard",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a24e0690048/ff8080817ce80e39017d9a24e0690048_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5854339386,
+                    50.6482140306
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "395e0afa55be1bbe0d3f0b272a551183200f04a9",
+            "fields": {
+                "geo_point_2d": [
+                    50.6463999594,
+                    5.5810980556
+                ],
+                "street_name": "Rue sur-Les-Foulons",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a2217b70045",
+                "type": "Fontaine Mont\u00e9fiore (Eau potable)",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5810980556,
+                        50.6463999594
+                    ],
+                    "type": "Point"
+                },
+                "schedule": "En service de mi-avril \u00e0 octobre de 09h \u00e0 21h",
+                "icar_address_id": 1204825,
+                "street_code": 5095,
+                "gid": 5,
+                "icar_street_id": 7731361,
+                "photo": {
+                    "id": "21496bbac6419579c708af07fcef8c12",
+                    "mimetype": "image/jpeg",
+                    "height": 1035,
+                    "width": 690,
+                    "filename": "ff8080817ce80e39017d9a2217b70045_o.jpg",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(48, 54, 37, 1.00)",
+                        "rgba(99, 100, 93, 1.00)",
+                        "rgba(118, 117, 113, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Fontaine Montefiore - Foulon",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a2217b70045/ff8080817ce80e39017d9a2217b70045_o.jpg",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5810980556,
+                    50.6463999594
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "9f54579fbe98b2cc9cc715299fb7fe37649ae3b8",
+            "fields": {
+                "geo_point_2d": [
+                    50.6400779634,
+                    5.5828400229
+                ],
+                "street_name": "Rue Roture",
+                "postal_code": 4020,
+                "picture": "ff8080817ce80e39017d9a220ed70044",
+                "type": "Fontaine Mont\u00e9fiore (Eau potable)",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5828400229,
+                        50.6400779634
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "17",
+                "schedule": "En service de mi-avril \u00e0 octobre de 09h \u00e0 21h",
+                "icar_address_id": 1143485,
+                "street_code": 6089,
+                "gid": 8,
+                "icar_street_id": 7729905,
+                "photo": {
+                    "id": "bca0f2b55c61499de756df90f9ab86ac",
+                    "mimetype": "image/jpeg",
+                    "height": 1425,
+                    "width": 950,
+                    "filename": "ff8080817ce80e39017d9a220ed70044_o.jpg",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(142, 143, 143, 1.00)",
+                        "rgba(107, 104, 95, 1.00)",
+                        "rgba(103, 104, 97, 1.00)"
+                    ]
+                },
+                "status": "Non disponible",
+                "title": "Fontaine Montefiore - Roture",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-08-08",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a220ed70044/ff8080817ce80e39017d9a220ed70044_o.jpg",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5828400229,
+                    50.6400779634
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "0346abb89b084f30b45876c89cb5c5206b057c9a",
+            "fields": {
+                "geo_point_2d": [
+                    50.6212725947,
+                    5.5990772747
+                ],
+                "street_name": "avenue Albert 1er",
+                "postal_code": 4030,
+                "picture": "ff80808180ad7ba50180f6601a2c000c",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5990772747,
+                        50.6212725947
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "5",
+                "schedule": "en service de mi-avril \u00e0 octobre sur demande \u00e0 l'aide d'un bouton poussoir",
+                "icar_address_id": 1873624,
+                "street_code": 7777,
+                "gid": 41,
+                "icar_street_id": 7729594,
+                "photo": {
+                    "id": "bda095c170345ff030e53fea5eb55187",
+                    "mimetype": "image/png",
+                    "height": 5568,
+                    "width": 3712,
+                    "filename": "ff80808180ad7ba50180f6601a2c000c_o.png",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(136, 144, 136, 1.00)",
+                        "rgba(119, 127, 117, 1.00)",
+                        "rgba(67, 81, 85, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Albert 1er",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-28",
+                "photo_url": "https://tourisme.liege.be/photo/ff80808180ad7ba50180f6601a2c000c/ff80808180ad7ba50180f6601a2c000c_o.png",
+                "municipality": "Li\u00e8ge",
+                "created": "2022-04-19"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5990772747,
+                    50.6212725947
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "12a87cf2bcf03539496799b9992567503e59b1fe",
+            "fields": {
+                "geo_point_2d": [
+                    50.6288839989,
+                    5.5753899307
+                ],
+                "street_name": "Parc de la boverie",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a04399c0041",
+                "additional_information": "Voli\u00e8re",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5753899307,
+                        50.6288839989
+                    ],
+                    "type": "Point"
+                },
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1108066,
+                "street_code": 3092,
+                "gid": 14,
+                "icar_street_id": 7763453,
+                "photo": {
+                    "id": "a0f707d26ff99a783cf8f96970e31995",
+                    "mimetype": "image/jpeg",
+                    "height": 6000,
+                    "width": 4000,
+                    "filename": "ff8080817ce80e39017d9a04399c0041_o.JPG",
+                    "thumbnail": true,
+                    "format": "MPO",
+                    "color_summary": [
+                        "rgba(129, 167, 206, 1.00)",
+                        "rgba(108, 122, 119, 1.00)",
+                        "rgba(140, 135, 117, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Boverie 1",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-28",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a04399c0041/ff8080817ce80e39017d9a04399c0041_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5753899307,
+                    50.6288839989
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "c89a5c86211cbd8dc0b4f7eb085db2e3b03d732e",
+            "fields": {
+                "geo_point_2d": [
+                    50.6276830405,
+                    5.5760510132
+                ],
+                "street_name": "Parc de la boverie",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a0448700042",
+                "additional_information": "Plaine de jeux",
+                "type": "Borne \u00e0 boire",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5760510132,
+                        50.6276830405
+                    ],
+                    "type": "Point"
+                },
+                "schedule": "En service de mi-avril \u00e0 octobre sur demande via un bouton pressoir",
+                "icar_address_id": 1108066,
+                "gid": 15,
+                "photo": {
+                    "id": "72be0aa134e63420ea2629770b853e88",
+                    "mimetype": "image/jpeg",
+                    "height": 6000,
+                    "width": 4000,
+                    "filename": "ff8080817ce80e39017d9a0448700042_o.JPG",
+                    "thumbnail": true,
+                    "format": "MPO",
+                    "color_summary": [
+                        "rgba(138, 149, 74, 1.00)",
+                        "rgba(98, 108, 78, 1.00)",
+                        "rgba(95, 99, 110, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Borne \u00e0 boire - Boverie 2",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-28",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a0448700042/ff8080817ce80e39017d9a0448700042_o.JPG",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5760510132,
+                    50.6276830405
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "8987edf8e6fe8b891f4b16d277f5e67bcac6f424",
+            "fields": {
+                "geo_point_2d": [
+                    50.644487965,
+                    5.5775640256
+                ],
+                "street_name": "En Neuvice",
+                "postal_code": 4000,
+                "picture": "ff8080817ce80e39017d9a250dfe004b",
+                "type": "Fontaine Mont\u00e9fiore (Eau potable)",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5775640256,
+                        50.644487965
+                    ],
+                    "type": "Point"
+                },
+                "house_number": "58",
+                "schedule": "En service de mi-avril \u00e0 octobre de 09h \u00e0 21h",
+                "icar_address_id": 1928328,
+                "street_code": 1064,
+                "gid": 1,
+                "icar_street_id": 7729826,
+                "photo": {
+                    "id": "1cb06fdbaa2945388e3af1ab1d2a7ee8",
+                    "mimetype": "image/jpeg",
+                    "height": 683,
+                    "width": 1024,
+                    "filename": "ff8080817ce80e39017d9a250dfe004b_o.jpg",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(131, 134, 129, 1.00)",
+                        "rgba(110, 114, 103, 1.00)",
+                        "rgba(149, 151, 153, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Fontaine Montefiore - Neuvice",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a250dfe004b/ff8080817ce80e39017d9a250dfe004b_o.jpg",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5775640256,
+                    50.644487965
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        },
+        {
+            "datasetid": "points-eau-potable",
+            "id": "86aea1051cd4e2d18ff98bef3596f78a0fb31b90",
+            "fields": {
+                "geo_point_2d": [
+                    50.6115500358,
+                    5.5862310373
+                ],
+                "street_name": "Parc P\u00e9ralta",
+                "postal_code": 4031,
+                "picture": "ff8080817ce80e39017d9a221d4a0046",
+                "type": "Fontaine Mont\u00e9fiore (Eau potable)",
+                "json_geometry": {
+                    "coordinates": [
+                        5.5862310373,
+                        50.6115500358
+                    ],
+                    "type": "Point"
+                },
+                "schedule": "En service de mi-avril \u00e0 octobre de 09h \u00e0 21h",
+                "icar_address_id": 1229546,
+                "street_code": 7224,
+                "gid": 10,
+                "icar_street_id": 7730971,
+                "photo": {
+                    "id": "792b7ab4394bb0e21a95c95723edace1",
+                    "mimetype": "image/jpeg",
+                    "height": 1425,
+                    "width": 950,
+                    "filename": "ff8080817ce80e39017d9a221d4a0046_o.jpg",
+                    "thumbnail": true,
+                    "format": "JPEG",
+                    "color_summary": [
+                        "rgba(72, 93, 51, 1.00)",
+                        "rgba(82, 91, 66, 1.00)",
+                        "rgba(126, 130, 129, 1.00)"
+                    ]
+                },
+                "status": "Disponible \u00e0 la population",
+                "title": "Fontaine Montefiore - P\u00e9ralta",
+                "city": "Li\u00e8ge",
+                "last_modified": "2022-04-19",
+                "photo_url": "https://tourisme.liege.be/photo/ff8080817ce80e39017d9a221d4a0046/ff8080817ce80e39017d9a221d4a0046_o.jpg",
+                "municipality": "Li\u00e8ge",
+                "created": "2020-06-17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.5862310373,
+                    50.6115500358
+                ]
+            },
+            "record_timestamp": "2022-09-22T00:28:00+02:00"
+        }
+    ]
+}

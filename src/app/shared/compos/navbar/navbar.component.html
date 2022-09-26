@@ -4,7 +4,8 @@
     <ul class="right hide-on-med-and-down">
       <li><a routerLink="">Home</a></li>
       <li><a routerLink="admin">Admin module</a></li>
-      <li><a style="width:250px;" class="dropdown-trigger" data-target="demosList1">&nbsp;&nbsp;&nbsp;Demos&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a style="width:250px;" class="dropdown-trigger" data-target="demosList1">&nbsp;&nbsp;&nbsp;Demos Part 1&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a style="width:250px;" class="dropdown-trigger" data-target="demosList2">&nbsp;&nbsp;&nbsp;Demos Part 2&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a style="width:250px;" class="dropdown-trigger" data-target="exosList1">&nbsp;&nbsp;&nbsp;Exos&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a style="width:250px;" class="dropdown-trigger" data-target="remList1">&nbsp;&nbsp;&nbsp;Remédiations&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
@@ -36,7 +37,13 @@
   <li><a routerLink="demos/attrdirectives/native">Demo 9 : Les Directives D'attributs</a></li>
   <li class="divider"></li>
   <li><a routerLink="demos/attrdirectives/custom">Demo 10 : Les Directives D'attributs custom</a></li>
-  <li class="divider"></li>
+</ul>
+
+
+
+
+<!-- Dropdown Structure -->
+<ul id="demosList2" class="dropdown-content">
   <li><a routerLink="demos/inputoutput">Demo 11 : Input Output (parent - child)</a></li>
   <li class="divider"></li>
   <li><a routerLink="demos/diServices">Demo 12 : DI - Les Services</a></li>
@@ -46,8 +53,8 @@
   <li><a routerLink="demos/asyncawait">Demo 14 : Rappel Async Await</a></li>
   <li class="divider"></li>
   <li><a routerLink="demos/httpclient">Demo 15 : HttpClient</a></li>
-  
-
+  <li class="divider"></li>
+  <li><a routerLink="demos/guardian">Demo 16 : Les Guards</a></li>
 </ul>
 
 
@@ -65,7 +72,6 @@
   <li><a routerLink="exos/inputoutput">Exos 5 : Les Input Output</a></li>
   <li class="divider"></li>
   <li><a routerLink="exos/promise">Exos 6 : Micro exos promise</a></li>
-
 </ul>
 
 
@@ -75,6 +81,4 @@
   <li><a routerLink="rem/login">Login simple fake service</a></li>
   <li class="divider"></li>
   <li><a routerLink="rem/fetching">Fetching api for promise explain</a></li>
-
-
 </ul>

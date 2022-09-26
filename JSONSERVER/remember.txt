@@ -1,2 +1,4 @@
 npm i -g json-server
 json-server --watch ./name.json --port 3000
+
+attention que tous les taleau d'objet, chaque object dois contenir un id impérativement !

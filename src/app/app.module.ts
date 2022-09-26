@@ -56,6 +56,7 @@ import { HttpClient15Component } from './demos/http-client15/http-client15.compo
 import { FetchPromiseComponent } from './remediations/22092022/fetch-promise/fetch-promise.component';
 import { LoginremComponent } from './remediations/22092022/loginrem/loginrem.component';
 import { RemediationService } from './remediations/22092022/remediation.service';
+import { Guardian16Component } from './demos/guardian16/guardian16.component';
 
 
 
@@ -104,6 +105,7 @@ import { RemediationService } from './remediations/22092022/remediation.service'
     HttpClient15Component,
     FetchPromiseComponent,
     LoginremComponent,
+    Guardian16Component,
     
   ],
   imports: [

@@ -28,6 +28,8 @@ import { Exos6PromiseComponent } from './exos/exos6-promise/exos6-promise.compon
 import { HttpClient15Component } from './demos/http-client15/http-client15.component';
 import { FetchPromiseComponent } from './remediations/22092022/fetch-promise/fetch-promise.component';
 import { LoginremComponent } from './remediations/22092022/loginrem/loginrem.component';
+import { Guardian16Component } from './demos/guardian16/guardian16.component';
+import { LoginGuard } from './shared/guards/login.guard';
 
 
 
@@ -53,8 +55,7 @@ const routes: Routes = [
 			{ path: "refreshpromise", component : RefreshPromise13Component},
 			{ path: "asyncawait", component : AsyncAwait14Component},
 			{ path: "httpclient", component : HttpClient15Component},
-
-			
+			{ path : "guardian", canActivate : [LoginGuard] ,component : Guardian16Component}
 		]
 	},
 	{
