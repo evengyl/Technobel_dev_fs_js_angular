@@ -7,6 +7,12 @@
 
                 <p>localhost:4200/categ/12/product/14259</p>
                 <p></p>
+                <button class="btn red darken-1" (click)="navigateCateg()">(1)Go to /categ</button><br>
+                <button class="btn red darken-1" (click)="navigateListProducts()">(2)Go to /categ/12/products</button><br>
+                <button class="btn red darken-1" (click)="navigateProduct()">(3)Go to /categ/12/products/14259</button><br>
+                <button class="btn red darken-1" (click)="navigateProductDetails()">(4)Go to /categ/12/products/14259/details</button><br>
+                <button class="btn red darken-1" (click)="navigateProductDetailsWithQueryParams()">(5)Go to /categ/12/products/14259/details?order=desc&limit=25</button><br>
+                <button class="btn green darken-1" (click)="finalityUrl()">(6) simple console log final</button>
             </div>
         </div>
     </div>

@@ -83,9 +83,10 @@ const routes: Routes = [
 
 	{ path : "categ", children : [
 		{ path : "", data : {categ : "all"}, component : RoutagePartTwo19Component },
-		{ path : ":id/product", children : [
+		{ path : ":idCateg/product", children : [
 			{ path : "", data: {product : "all"}, component : RoutagePartTwo19Component },
-			{ path : ":id", component : RoutagePartTwo19Component },
+			{ path : ":idProduct", component : RoutagePartTwo19Component },
+			{ path : ":idProduct/details", component : RoutagePartTwo19Component },
 		] },
 	]},
 	/*va matcher avec
