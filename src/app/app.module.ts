@@ -57,6 +57,7 @@ import { FetchPromiseComponent } from './remediations/22092022/fetch-promise/fet
 import { LoginremComponent } from './remediations/22092022/loginrem/loginrem.component';
 import { RemediationService } from './remediations/22092022/remediation.service';
 import { Guardian16Component } from './demos/guardian16/guardian16.component';
+import { Storages17Component } from './demos/storages17/storages17.component';
 
 
 
@@ -106,6 +107,7 @@ import { Guardian16Component } from './demos/guardian16/guardian16.component';
     FetchPromiseComponent,
     LoginremComponent,
     Guardian16Component,
+    Storages17Component,
     
   ],
   imports: [

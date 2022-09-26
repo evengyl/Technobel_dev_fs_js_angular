@@ -22,6 +22,8 @@ export class FakeLoginService {
   logout(){
     this.isConnect = false
     sessionStorage.setItem("isConnect", JSON.stringify(this.isConnect))
+    //sessionStorage.removeItem("isConnect")
+    //sessionStorage.clear()
   }
 
 

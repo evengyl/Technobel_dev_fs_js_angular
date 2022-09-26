@@ -30,6 +30,7 @@ import { FetchPromiseComponent } from './remediations/22092022/fetch-promise/fet
 import { LoginremComponent } from './remediations/22092022/loginrem/loginrem.component';
 import { Guardian16Component } from './demos/guardian16/guardian16.component';
 import { LoginGuard } from './shared/guards/login.guard';
+import { Storages17Component } from './demos/storages17/storages17.component';
 
 
 
@@ -55,7 +56,8 @@ const routes: Routes = [
 			{ path: "refreshpromise", component : RefreshPromise13Component},
 			{ path: "asyncawait", component : AsyncAwait14Component},
 			{ path: "httpclient", component : HttpClient15Component},
-			{ path : "guardian", canActivate : [LoginGuard] ,component : Guardian16Component}
+			{ path : "guardian", canActivate : [LoginGuard] ,component : Guardian16Component},
+			{ path : "storages", component : Storages17Component},
 		]
 	},
 	{
