@@ -12,6 +12,7 @@ export class FakeLoginService {
 
   login(){
     this.isConnect = true
+    sessionStorage.setItem("isConnect", JSON.stringify(this.isConnect))
   }
 
   register(){
@@ -20,5 +21,15 @@ export class FakeLoginService {
 
   logout(){
     this.isConnect = false
+    sessionStorage.setItem("isConnect", JSON.stringify(this.isConnect))
+  }
+
+
+  refresh(){
+    let tmpLogged = sessionStorage.getItem("isConnect")
+
+    if(tmpLogged) //attention que la session est gérée par le navigateur et donc elle se détruira a un moment donné
+    //exemple, la session est détruite quand on quitte le navigateur
+      this.isConnect = JSON.parse(tmpLogged)
   }
 }
