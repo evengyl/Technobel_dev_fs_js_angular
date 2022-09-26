@@ -31,6 +31,8 @@ import { LoginremComponent } from './remediations/22092022/loginrem/loginrem.com
 import { Guardian16Component } from './demos/guardian16/guardian16.component';
 import { LoginGuard } from './shared/guards/login.guard';
 import { Storages17Component } from './demos/storages17/storages17.component';
+import { Routage18Component } from './demos/routage18/routage18.component';
+import { RoutagePartTwo19Component } from './demos/routage-part-two19/routage-part-two19.component';
 
 
 
@@ -58,6 +60,8 @@ const routes: Routes = [
 			{ path: "httpclient", component : HttpClient15Component},
 			{ path : "guardian", canActivate : [LoginGuard] ,component : Guardian16Component},
 			{ path : "storages", component : Storages17Component},
+			{ path : "routage", component : Routage18Component},
+			{ path : "routage/:id", component : Routage18Component},
 		]
 	},
 	{
@@ -76,6 +80,20 @@ const routes: Routes = [
 			{ path : "fetching", component : FetchPromiseComponent}
 		]
 	},
+
+	{ path : "categ", children : [
+		{ path : "", data : {categ : "all"}, component : RoutagePartTwo19Component },
+		{ path : ":id/product", children : [
+			{ path : "", data: {product : "all"}, component : RoutagePartTwo19Component },
+			{ path : ":id", component : RoutagePartTwo19Component },
+		] },
+	]},
+	/*va matcher avec
+		/categ
+		/categ/42
+		/categ/42/products
+		/categ/42/products/125
+	*/
 
 
 

@@ -58,6 +58,8 @@ import { LoginremComponent } from './remediations/22092022/loginrem/loginrem.com
 import { RemediationService } from './remediations/22092022/remediation.service';
 import { Guardian16Component } from './demos/guardian16/guardian16.component';
 import { Storages17Component } from './demos/storages17/storages17.component';
+import { Routage18Component } from './demos/routage18/routage18.component';
+import { RoutagePartTwo19Component } from './demos/routage-part-two19/routage-part-two19.component';
 
 
 
@@ -108,6 +110,8 @@ import { Storages17Component } from './demos/storages17/storages17.component';
     LoginremComponent,
     Guardian16Component,
     Storages17Component,
+    Routage18Component,
+    RoutagePartTwo19Component,
     
   ],
   imports: [
