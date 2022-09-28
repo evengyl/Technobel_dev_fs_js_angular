@@ -16,5 +16,3 @@ ng generate component path+name
 ou
 ng g c path+name
 
-
-pour installer prime-ng -> npm i primeng --save

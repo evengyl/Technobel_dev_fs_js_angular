@@ -1,0 +1,16 @@
+<h4>Remédiation sur base de RestCountries API RestFul et Routage (Details)</h4>
+
+<div  class="row">
+    <div class="col m12">
+        <div class="card blue-grey darken-1">
+            <!--ici on met un petit ngIf sur name ! parce que mon template s'affiche plus vite que ce que l'api me répond, et donc affiche bien
+            les datas mais avec des erreurs dans le code que l'on ne vois pas(console... délai d'attente...)-->
+            <div  *ngIf="country.name" class="card-content white-text">
+                <span class="card-title">{{country.name.official}}</span>
+                <p>Capitale : {{ country.capital }}</p>
+                <p>Population : {{ country.population }}</p>
+                <img src={{country.flags.png}}>
+            </div>
+        </div>
+    </div>
+</div>

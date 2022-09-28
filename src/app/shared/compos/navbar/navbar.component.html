@@ -1,11 +1,8 @@
 <nav class="nav-extended" role="navigation">
   <div class="nav-wrapper container">
-    <a id="logo-container" class="brand-logo">Logo</a>
+    <a id="logo-container" class="brand-logo"><i style="font-size:40px;" class="material-icons">thumb_up</i></a>
     <ul class="right hide-on-med-and-down">
-      <li><a routerLink="">Home</a></li>
-      <li><a routerLink="admin">Admin module</a></li>
-      <li><a routerLink="demos/diServices">Login</a></li>
-      <li><a routerLink="myStore/categ">My Store (Routage - demos 18 - 19)</a></li>
+
       <li><a style="width:200px;" class="dropdown-trigger" data-target="demosList1">&nbsp;&nbsp;&nbsp;Demos Part 1&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a style="width:200px;" class="dropdown-trigger" data-target="demosList2">&nbsp;&nbsp;&nbsp;Demos Part 2&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a style="width:200px;" class="dropdown-trigger" data-target="exosList1">&nbsp;&nbsp;&nbsp;Exos&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -17,10 +14,10 @@
   </div>
   <div class="nav-content">
     <ul class="tabs tabs-transparent">
-      <li class="tab"><a href="#test1">Test 1</a></li>
-      <li class="tab"><a class="active" href="#test2">Test 2</a></li>
-      <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
-      <li class="tab"><a href="#test4">Test 4</a></li>
+      <li class="tab"><a routerLink="">Home</a></li>
+      <li class="tab"><a routerLink="admin">Admin module</a></li>
+      <li class="tab"><a routerLink="demos/diServices">Login</a></li>
+      <li class="tab"><a routerLink="myStore/categ">My Store (Global demos 1 - 19)</a></li>
     </ul>
   </div>
 </nav>
@@ -98,4 +95,7 @@
   <li><a routerLink="rem/login">Login simple fake service</a></li>
   <li class="divider"></li>
   <li><a routerLink="rem/fetching">Fetching api for promise explain</a></li>
+  <li class="divider"></li>
+  <li><a routerLink="rem/nav_api/countries">Remédiation sur API et Routage</a></li>
+
 </ul>

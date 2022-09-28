@@ -36,6 +36,8 @@ import { RoutagePartTwo19Component } from './demos/routage-part-two19/routage-pa
 import { CategsStoreComponent } from './myStore/categs-store/categs-store.component';
 import { ProductsStoreComponent } from './myStore/products-store/products-store.component';
 import { ProductDetailsStoreComponent } from './myStore/product-details-store/product-details-store.component';
+import { CountriesComponent } from './remediations/28092022/countries/countries.component';
+import { CountryDetailsComponent } from './remediations/28092022/country-details/country-details.component';
 
 
 
@@ -76,10 +78,13 @@ const routes: Routes = [
 		]
 	},
 	{ path : "rem", children: [
-			{ path : "login", component : LoginremComponent},
-			{ path : "fetching", component : FetchPromiseComponent}
-		]
-	},
+		{ path : "login", component : LoginremComponent},
+		{ path : "fetching", component : FetchPromiseComponent},
+		{ path : "nav_api/countries", component : CountriesComponent},
+			//je veux que ma navigation donne ceci
+			// -> /rem/nav_api/countries/{{ccn3}}/details
+		{ path : "nav_api/countries/:ccn3/details", component : CountryDetailsComponent}
+	]},
 
 	{ path : "categ", children : [
 		{ path : "", data : {categ : "all"}, component : RoutagePartTwo19Component },

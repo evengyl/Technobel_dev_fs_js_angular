@@ -63,6 +63,8 @@ import { RoutagePartTwo19Component } from './demos/routage-part-two19/routage-pa
 import { ProductsStoreComponent } from './myStore/products-store/products-store.component';
 import { CategsStoreComponent } from './myStore/categs-store/categs-store.component';
 import { ProductDetailsStoreComponent } from './myStore/product-details-store/product-details-store.component';
+import { CountriesComponent } from './remediations/28092022/countries/countries.component';
+import { CountryDetailsComponent } from './remediations/28092022/country-details/country-details.component';
 
 
 
@@ -118,6 +120,8 @@ import { ProductDetailsStoreComponent } from './myStore/product-details-store/pr
     ProductsStoreComponent,
     CategsStoreComponent,
     ProductDetailsStoreComponent,
+    CountriesComponent,
+    CountryDetailsComponent,
     
   ],
   imports: [
