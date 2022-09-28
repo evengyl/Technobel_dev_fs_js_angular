@@ -33,6 +33,9 @@ import { LoginGuard } from './shared/guards/login.guard';
 import { Storages17Component } from './demos/storages17/storages17.component';
 import { Routage18Component } from './demos/routage18/routage18.component';
 import { RoutagePartTwo19Component } from './demos/routage-part-two19/routage-part-two19.component';
+import { CategsStoreComponent } from './myStore/categs-store/categs-store.component';
+import { ProductsStoreComponent } from './myStore/products-store/products-store.component';
+import { ProductDetailsStoreComponent } from './myStore/product-details-store/product-details-store.component';
 
 
 
@@ -40,32 +43,30 @@ import { RoutagePartTwo19Component } from './demos/routage-part-two19/routage-pa
 const routes: Routes = [
 	{ path: "", component: HomeComponent },
 	{ path: "demos", children: [
-			{ path: "binding", component: Binding1Component },
-			{ path: "twowaybinding", component: Twowaybinding2Component },
-			{ path: "four0four", component: Four0four3Component },
-			{ path: "event", component: Eventbinding4Component },
-			{ path: "propertymodel", component: Propertymodel5Component },
-			{ path: "pipes", component: Thepipes6Component },
-			{ path: "cpipes", component: Custompipes7Component },
-			{ path: "strdirectives", component: Structuralsdirectives8Component },
-			{ path: "attrdirectives", children: [
-					{ path: "native", component: Attributesdirectives9Component },
-					{ path: "custom", component: Attributesdirectivescustom10Component },
-				]
-			},
-			{ path: "inputoutput", component : ParentComponent},
-			{ path: "diServices", component : DI12Component},
-			{ path: "refreshpromise", component : RefreshPromise13Component},
-			{ path: "asyncawait", component : AsyncAwait14Component},
-			{ path: "httpclient", component : HttpClient15Component},
-			{ path : "guardian", canActivate : [LoginGuard] ,component : Guardian16Component},
-			{ path : "storages", component : Storages17Component},
-			{ path : "routage", component : Routage18Component},
-			{ path : "routage/:id", component : Routage18Component},
-		]
-	},
-	{
-		path: "exos", children: [
+		{ path: "binding", component: Binding1Component },
+		{ path: "twowaybinding", component: Twowaybinding2Component },
+		{ path: "four0four", component: Four0four3Component },
+		{ path: "event", component: Eventbinding4Component },
+		{ path: "propertymodel", component: Propertymodel5Component },
+		{ path: "pipes", component: Thepipes6Component },
+		{ path: "cpipes", component: Custompipes7Component },
+		{ path: "strdirectives", component: Structuralsdirectives8Component },
+		{ path: "attrdirectives", children: [
+				{ path: "native", component: Attributesdirectives9Component },
+				{ path: "custom", component: Attributesdirectivescustom10Component },
+			]
+		},
+		{ path: "inputoutput", component : ParentComponent},
+		{ path: "diServices", component : DI12Component},
+		{ path: "refreshpromise", component : RefreshPromise13Component},
+		{ path: "asyncawait", component : AsyncAwait14Component},
+		{ path: "httpclient", component : HttpClient15Component},
+		{ path : "guardian", canActivate : [LoginGuard] ,component : Guardian16Component},
+		{ path : "storages", component : Storages17Component},
+		{ path : "routage", component : Routage18Component},
+		{ path : "routage/:id", component : Routage18Component},
+	]},
+	{ path: "exos", children: [
 			{ path: "calculette", component: Exos1CalculetteComponent },
 			{ path: "customspipes", component: Exos2CustomspipesComponent },
 			{ path: "customcart", component: Exos3CustomCartsComponent },
@@ -74,8 +75,7 @@ const routes: Routes = [
 			{ path: "promise", component : Exos6PromiseComponent},
 		]
 	},
-	{
-		path : "rem", children: [
+	{ path : "rem", children: [
 			{ path : "login", component : LoginremComponent},
 			{ path : "fetching", component : FetchPromiseComponent}
 		]
@@ -89,6 +89,13 @@ const routes: Routes = [
 			{ path : ":idProduct/details", component : RoutagePartTwo19Component },
 		] },
 	]},
+
+	{ path : "myStore", children : [
+		{ path : "categ", component : CategsStoreComponent},
+		{ path : "categ/:idCateg", component : ProductsStoreComponent},
+		{ path : "categ/:idCateg/product/:idProd", component : ProductDetailsStoreComponent},
+	]},
+
 	/*va matcher avec
 		/categ
 		/categ/42

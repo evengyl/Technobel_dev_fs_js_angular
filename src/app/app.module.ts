@@ -60,6 +60,9 @@ import { Guardian16Component } from './demos/guardian16/guardian16.component';
 import { Storages17Component } from './demos/storages17/storages17.component';
 import { Routage18Component } from './demos/routage18/routage18.component';
 import { RoutagePartTwo19Component } from './demos/routage-part-two19/routage-part-two19.component';
+import { ProductsStoreComponent } from './myStore/products-store/products-store.component';
+import { CategsStoreComponent } from './myStore/categs-store/categs-store.component';
+import { ProductDetailsStoreComponent } from './myStore/product-details-store/product-details-store.component';
 
 
 
@@ -112,6 +115,9 @@ import { RoutagePartTwo19Component } from './demos/routage-part-two19/routage-pa
     Storages17Component,
     Routage18Component,
     RoutagePartTwo19Component,
+    ProductsStoreComponent,
+    CategsStoreComponent,
+    ProductDetailsStoreComponent,
     
   ],
   imports: [
