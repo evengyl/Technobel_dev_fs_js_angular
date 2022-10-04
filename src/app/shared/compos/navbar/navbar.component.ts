@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FakeLoginOBSService } from 'src/app/demos/obs20/fakeLoginOBS.service';
-import { FakeLoginService } from '../../services/fake-login.service';
 
 
 @Component({
