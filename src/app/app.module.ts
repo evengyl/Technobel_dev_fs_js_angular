@@ -65,6 +65,9 @@ import { CategsStoreComponent } from './myStore/categs-store/categs-store.compon
 import { ProductDetailsStoreComponent } from './myStore/product-details-store/product-details-store.component';
 import { CountriesComponent } from './remediations/28092022/countries/countries.component';
 import { CountryDetailsComponent } from './remediations/28092022/country-details/country-details.component';
+import { UnComponent } from './demos/obs20/un/un.component';
+import { DeuxComponent } from './demos/obs20/deux/deux.component';
+import { TroisComponent } from './demos/obs20/trois/trois.component';
 
 
 
@@ -122,6 +125,9 @@ import { CountryDetailsComponent } from './remediations/28092022/country-details
     ProductDetailsStoreComponent,
     CountriesComponent,
     CountryDetailsComponent,
+    UnComponent,
+    DeuxComponent,
+    TroisComponent,
     
   ],
   imports: [

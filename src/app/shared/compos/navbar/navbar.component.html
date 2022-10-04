@@ -1,6 +1,7 @@
 <nav class="nav-extended" role="navigation">
   <div class="nav-wrapper container">
-    <a id="logo-container" class="brand-logo"><i style="font-size:40px;" class="material-icons">thumb_up</i></a>
+    <a *ngIf="isConnect" id="logo-container" class="brand-logo"><i style="font-size:40px;" class="material-icons">thumb_up</i></a>
+    <a *ngIf="!isConnect" id="logo-container" class="brand-logo"><i style="font-size:40px;" class="material-icons">thumb_down</i></a>
     <ul class="right hide-on-med-and-down">
 
       <li><a style="width:200px;" class="dropdown-trigger" data-target="demosList1">&nbsp;&nbsp;&nbsp;Demos Part 1&nbsp;&nbsp;&nbsp;<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -68,6 +69,8 @@
   <li><a routerLink="demos/routage">Demo 18 : Le Routage</a></li>
   <li class="divider"></li>
   <li><a routerLink="categ">Demo 19 : Le Routage partie 2</a></li>
+  <li class="divider"></li>
+  <li><a routerLink="demos/obs">Demo 20 : Les observables</a></li>
 
 </ul>
 
