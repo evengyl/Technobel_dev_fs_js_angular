@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
-import { BehaviorSubject, concatMap, concatWith, map, mergeMap, Observable, switchMap } from "rxjs";
+import { from, fromEvent, interval, merge, Observable, of, zip } from "rxjs";
+import { buffer, filter, map, mergeMap } from "rxjs/operators";
 
 @Injectable({
     providedIn : "root"
@@ -15,16 +16,54 @@ export class FakeProductsOBSService{
         { id : 6, name : "iphone 18", priceNet : 25600},
     ]
 
+    private $letterList : Observable<string> = of("a", "b", "c", "d", "e", "f")
+    private $listCountry : Observable<string> = from(["Strasbourg", "Paris", "Lyon"])
+    private $listTemp : Observable<number> = from([15, 25, 35, 41, 12, 18, 29])
+    private $intervalEmitLetter : Observable<number> = interval(1000)
+
 
     private user : User = {
-        id : 42,
+        id : 42, 
         name : "Jawad",
         tauxTVA : 12,
         remise : 2.5
     }
 
     
-    constructor(){}
+    constructor(){
+
+        // const clicks = fromEvent(document, 'click');
+        // const intervalEvents = interval(1000);
+        // const buffered = intervalEvents.pipe(buffer(clicks));
+        // buffered.subscribe(x => console.log(x));
+        
+    }
+
+    getLetter()
+    {
+        return this.$letterList.pipe(
+            mergeMap(letter => this.$listCountry.pipe())
+        )
+    }
+
+    getTemp(){
+        return this.$listTemp.pipe(
+            filter(temp => temp < 20)
+        )
+    }
+
+    getCountry(){
+        return zip(
+            this.$listCountry,
+            this.$letterList,
+            this.$intervalEmitLetter,
+            this.$listTemp.pipe(
+                filter(temp => temp < 20)
+            )
+        ).pipe(
+            map(([Ville, Lettre, Timer, Temp]) => ({Ville, Lettre, Timer, Temp}))
+        )
+    }
 
 
     getProductList()
