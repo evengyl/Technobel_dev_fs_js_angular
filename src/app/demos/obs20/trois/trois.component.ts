@@ -14,7 +14,6 @@ export class TroisComponent implements OnInit {
 
   ngOnInit(): void {
     this.fakeLoginObsServe.$isConnect.subscribe((isConnect : boolean) => {
-      console.log("next emit !")
       this.isConnect = isConnect
     })
   }

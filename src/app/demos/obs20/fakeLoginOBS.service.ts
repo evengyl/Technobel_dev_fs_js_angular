@@ -11,16 +11,18 @@ export class FakeLoginOBSService{
 
     //$isConnect : Subject<boolean> = new Subject<boolean>()
     $isConnect : BehaviorSubject<boolean> = new BehaviorSubject<boolean>(this.verifyLogged())
+    $interval : Subject<number> = new Subject<number>()
+    interval : any
     
-    constructor(){
-       
-
-    }
+    constructor(){}
 
     verifyLogged() : boolean{
         let tmpIsConnect = localStorage.getItem("isConnect")
 
         if(tmpIsConnect == "true"){
+
+            
+            this.set_interval()
             this.isConnect = true
             return this.isConnect
         }
@@ -30,9 +32,23 @@ export class FakeLoginOBSService{
     }
 
 
+    set_interval()
+    {
+        if(this.interval == undefined)
+        {
+            let i = 0
+            this.interval = setInterval(() => {
+                i ++ 
+                this.$interval.next(i)
+            }, 1000)
+        }
+    }
+
+
     login(){
         this.isConnect = true
         localStorage.setItem("isConnect", "true")
+        this.set_interval()
         this.emit_isConnect()
     }
 
@@ -45,7 +61,7 @@ export class FakeLoginOBSService{
 
     emit_isConnect(){
         this.$isConnect.next(this.isConnect)
-      }
-    
+    }
+
 
 }
