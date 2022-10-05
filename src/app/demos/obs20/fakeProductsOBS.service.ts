@@ -42,7 +42,8 @@ export class FakeProductsOBSService{
     getLetter()
     {
         return this.$letterList.pipe(
-            mergeMap(letter => this.$listCountry.pipe())
+            mergeMap(letter => this.$listCountry.pipe()),
+            map(x => x)
         )
     }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { forkJoin, Observable, Observer } from 'rxjs';
+import { forkJoin, observable, Observable, Observer } from 'rxjs';
 import { PokeService } from '../poke.service';
 
 @Component({
@@ -11,8 +11,9 @@ export class QuatreComponent implements OnInit {
   
   listPoke : any[] = []
   time : any
+  testObsAsyncPipe : Observable<any> = new Observable
 
-  constructor(public pokeServe : PokeService) { }
+  constructor(private pokeServe : PokeService) { }
 
   ngOnInit(): void {
       this.getAllPoke()
@@ -30,8 +31,8 @@ export class QuatreComponent implements OnInit {
       // .then(res => console.log(res))
       // .subscribe(res => console.log(res))
     
+      this.testObsAsyncPipe = this.pokeServe.getAll()
   }
-
 
   getAllPoke(){
     const listPokeWithDetails : Observable<any>[] = []
