@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 import { forkJoin, observable, Observable, Observer } from 'rxjs';
 import { PokeService } from '../poke.service';
 
