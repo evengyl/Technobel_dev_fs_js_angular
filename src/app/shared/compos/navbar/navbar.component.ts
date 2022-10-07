@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { FakeLoginOBSService } from 'src/app/demos/obs20/fakeLoginOBS.service';
 
 
@@ -8,6 +9,7 @@ import { FakeLoginOBSService } from 'src/app/demos/obs20/fakeLoginOBS.service';
 })
 export class NavbarComponent implements OnInit {
   isConnect: boolean = false
+  timeConnectUser : number = 0
 
   constructor(private fakeLoginObsServe : FakeLoginOBSService) { }
 
@@ -15,12 +17,14 @@ export class NavbarComponent implements OnInit {
 
 
     this.fakeLoginObsServe.$isConnect.subscribe((isConnect : boolean) => {
-      console.log("next emit !")
       this.isConnect = isConnect
+
+      this.fakeLoginObsServe.$interval.subscribe((timeConnect) => {
+        this.timeConnectUser = timeConnect
+      })
     })
     
 
-    console.log("chargée")
     let  elems = document.querySelectorAll('.dropdown-trigger');
     M.Dropdown.init(elems)
   }

@@ -68,6 +68,7 @@ import { CountryDetailsComponent } from './remediations/28092022/country-details
 import { UnComponent } from './demos/obs20/un/un.component';
 import { DeuxComponent } from './demos/obs20/deux/deux.component';
 import { TroisComponent } from './demos/obs20/trois/trois.component';
+import { QuatreComponent } from './demos/obs20/quatre/quatre.component';
 
 
 
@@ -128,6 +129,7 @@ import { TroisComponent } from './demos/obs20/trois/trois.component';
     UnComponent,
     DeuxComponent,
     TroisComponent,
+    QuatreComponent,
     
   ],
   imports: [

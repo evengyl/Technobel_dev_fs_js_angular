@@ -1,3 +1,11 @@
 <span class="card-title">Compo obs 2</span>
 <span class="blue btn">{{ isConnect}}</span>
-<p *ngIf="isConnect">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, optio eveniet voluptatem, quia pariatur quidem veritatis voluptate earum, quas maiores accusantium impedit ipsum quo. Ut porro enim natus delectus dicta!</p>
+
+<ul class="collection" *ngIf="isConnect">
+    <li *ngFor="let product of listProduct" class="collection-item avatar">
+        <i class="material-icons circle green">insert_chart</i>
+        <span class="title">{{ product.name }}</span>
+        <p>{{ product.priceNet }}</p>
+        <a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+    </li>
+</ul>
