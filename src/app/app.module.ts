@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
 
 import * as M from 'materialize-css'
@@ -69,6 +69,7 @@ import { UnComponent } from './demos/obs20/un/un.component';
 import { DeuxComponent } from './demos/obs20/deux/deux.component';
 import { TroisComponent } from './demos/obs20/trois/trois.component';
 import { QuatreComponent } from './demos/obs20/quatre/quatre.component';
+import { ReactiveForms21Component } from './demos/reactive-forms21/reactive-forms21.component';
 
 
 
@@ -130,13 +131,15 @@ import { QuatreComponent } from './demos/obs20/quatre/quatre.component';
     DeuxComponent,
     TroisComponent,
     QuatreComponent,
+    ReactiveForms21Component,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [
   ],

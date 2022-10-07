@@ -1,0 +1,79 @@
+<h4>Les formulaires réactif</h4>
+
+<div class="row">
+    <div class="col m12">
+        <div class="card blue-grey darken-1">
+            <div class="card-content">
+                <form [formGroup]="myForm">
+                    
+                    <input id="name" type="text" formControlName="name">
+                    <label for="name">Name</label>
+                    <br><label *ngIf="myForm.controls['name'].pristine">Pristine</label>
+                    <br><label *ngIf="myForm.controls['name'].touched">Touched</label>
+                    <br><label *ngIf="myForm.controls['name'].valid">Valid</label>
+                    <p class="red darken-1" 
+                        *ngIf="myForm.controls['name'].errors"
+                    >
+                        {{myForm.controls['name'].errors['NameValidator']}}
+                    </p>
+
+                    <p class="red darken-1" *ngIf="myForm.controls['name'].errors?.['minlength']">
+                        Votre Nom doit faire {{ myForm.controls['name'].errors?.['minlength'].requiredLength }} lettres
+                    </p>
+
+
+
+
+                    <input id="email" type="text" formControlName="email">
+                    <label for="email">Email</label>
+                    <br><label *ngIf="myForm.controls['email'].pristine">Pristine</label>
+                    <br><label *ngIf="myForm.controls['email'].touched">Touched</label>
+                    <br><label *ngIf="myForm.controls['email'].valid">Valid</label>
+
+
+                    <input id="password" type="text" formControlName="password">
+                    <label for="password">Password</label>
+                    <br><label *ngIf="myForm.controls['password'].pristine">Pristine</label>
+                    <br><label *ngIf="myForm.controls['password'].touched">Touched</label>
+                    <br><label *ngIf="myForm.controls['password'].valid">Valid</label>
+
+
+                    <input id="Vpassword" type="text" formControlName="Vpassword">
+                    <label for="Vpassword">Vpassword</label>
+                    <br><label *ngIf="myForm.controls['Vpassword'].pristine">Pristine</label>
+                    <br><label *ngIf="myForm.controls['Vpassword'].touched">Touched</label>
+                    <br><label *ngIf="myForm.controls['Vpassword'].valid">Valid</label>
+                    
+                    <p class="red darken-1" 
+                        *ngIf="myForm.errors"
+                    >
+                        {{myForm.errors["MatchPassword"]}}
+                    </p>
+
+
+
+                    <input id="countryCheck" type="text" formControlName="countryCheck">
+                    <label for="countryCheck">countryCheck</label>
+                    <p class="red darken-1" 
+                        *ngIf="myForm.controls['countryCheck'].errors"
+                    >
+                        {{myForm.controls['countryCheck'].errors['AsyncCountryValidator']}}
+                    </p>
+
+
+                    <br>
+                    <button 
+                        [disabled]="!myForm.valid"
+                        (click)="sendForm()" 
+                        class="btn"
+                    >Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button 
+    (click)="log()" 
+    class="btn"
+>Voir debug</button>

@@ -39,6 +39,7 @@ import { ProductDetailsStoreComponent } from './myStore/product-details-store/pr
 import { CountriesComponent } from './remediations/28092022/countries/countries.component';
 import { CountryDetailsComponent } from './remediations/28092022/country-details/country-details.component';
 import { UnComponent } from './demos/obs20/un/un.component';
+import { ReactiveForms21Component } from './demos/reactive-forms21/reactive-forms21.component';
 
 
 
@@ -68,7 +69,8 @@ const routes: Routes = [
 		{ path : "storages", component : Storages17Component},
 		{ path : "routage", component : Routage18Component},
 		{ path : "routage/:id", component : Routage18Component},
-		{ path : "obs", component : UnComponent}
+		{ path : "obs", component : UnComponent},
+		{ path : "reactForms", component : ReactiveForms21Component}
 	]},
 	{ path: "exos", children: [
 			{ path: "calculette", component: Exos1CalculetteComponent },
